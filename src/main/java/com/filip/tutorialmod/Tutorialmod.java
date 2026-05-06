@@ -1,5 +1,6 @@
 package com.filip.tutorialmod;
 
+import com.filip.tutorialmod.block.ModBlocks;
 import com.filip.tutorialmod.item.TutorialmodItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,5 +15,6 @@ public class Tutorialmod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
 		TutorialmodItems.registerItems();
+		ModBlocks.registerBlocks();
 	}
 }
