@@ -16,8 +16,8 @@ import javax.swing.*;
 
 public class ModBlocks {
 
-    private static final Block PINK_GEM_BLOCK = registerBlock("pink_gem_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(4f).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
-    private static final Block RAW_PINK_GEM_BLOCK = registerBlock("raw_pink_gem_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(4f).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block PINK_GEM_BLOCK = registerBlock("pink_gem_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(4f).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block RAW_PINK_GEM_BLOCK = registerBlock("raw_pink_gem_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(4f).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
