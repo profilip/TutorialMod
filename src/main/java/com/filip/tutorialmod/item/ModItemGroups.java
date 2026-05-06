@@ -19,6 +19,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(TutorialmodItems.PINK_GEM);
                         entries.add(TutorialmodItems.RAW_PINK_GEM);
+                        entries.add(TutorialmodItems.CHISEL);
                     })
                     .build());
 
