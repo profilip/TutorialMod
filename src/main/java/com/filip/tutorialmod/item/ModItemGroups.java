@@ -30,6 +30,8 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.PINK_GEM_BLOCK);
                         entries.add(ModBlocks.RAW_PINK_GEM_BLOCK);
+                        entries.add(ModBlocks.PINK_GEM_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.PINK_GEM_ORE);
                     })
                     .build());
 
