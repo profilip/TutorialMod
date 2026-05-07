@@ -33,6 +33,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_PINK_GEM_BLOCK);
                         entries.add(ModBlocks.PINK_GEM_DEEPSLATE_ORE);
                         entries.add(ModBlocks.PINK_GEM_ORE);
+                        entries.add(ModBlocks.SUPER_BLOCK);
                     })
                     .build());
 
