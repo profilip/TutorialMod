@@ -15,6 +15,9 @@ public class TutorialmodItems {
 
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(25)));
 
+    public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)));
+    public static final Item BLUE_BERRIES = registerItem("blue_berries", new Item(new Item.Settings().food(ModFoodComponents.BLUE_BERRIES)));
+
     private static Item registerItem(String name,  Item item){
         return Registry.register(Registries.ITEM, Identifier.of(Tutorialmod.MOD_ID, name), item);
     }

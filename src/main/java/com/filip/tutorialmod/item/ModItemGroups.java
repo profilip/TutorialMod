@@ -10,6 +10,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
+import java.lang.reflect.GenericDeclaration;
+
 public class ModItemGroups {
     public static final ItemGroup PINK_GEM_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Tutorialmod.MOD_ID, "pink_gem_items"),
@@ -20,6 +22,8 @@ public class ModItemGroups {
                         entries.add(TutorialmodItems.PINK_GEM);
                         entries.add(TutorialmodItems.RAW_PINK_GEM);
                         entries.add(TutorialmodItems.CHISEL);
+                        entries.add(TutorialmodItems.BLUE_BERRIES);
+                        entries.add(TutorialmodItems.CAULIFLOWER);
                     })
                     .build());
 
