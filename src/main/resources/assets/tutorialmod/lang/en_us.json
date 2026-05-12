@@ -4,6 +4,7 @@
   "item.tutorialmod.chisel": "Chisel",
   "item.tutorialmod.cauliflower": "Cauliflower",
   "item.tutorialmod.blue_berries": "Blue Berries",
+  "item.tutorialmod.star_dust": "Star Dust",
 
   "block.tutorialmod.pink_gem_block": "Block Of Pink Gem",
   "block.tutorialmod.raw_pink_gem_block": "Block Of Raw Pink Gem",
@@ -12,5 +13,8 @@
   "block.tutorialmod.super_block": "Super Block",
 
   "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Gem Blocks",
-  "itemgroup.tutorialmod.pink_garnet_items": "Pink Gem Items"
+  "itemgroup.tutorialmod.pink_garnet_items": "Pink Gem Items",
+
+  "tooltip.tutorialmod.chisel": "Transforms stone into Stone bricks... maybe something §celse ?",
+  "tooltip.tutorialmod.super_block": "§c Very special block"
 }
